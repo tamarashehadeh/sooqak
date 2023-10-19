@@ -52,6 +52,12 @@
         <span class="mr-2">اعرض منتجاتك</span>
       </v-btn>
       <v-btn
+         :to="{ name: 'contact-us' }"
+        text
+      >
+        <span class="mr-2">تواصل معنا </span>
+      </v-btn>
+      <v-btn
          :to="{ name: 'cart-view' }"
         text
       >
